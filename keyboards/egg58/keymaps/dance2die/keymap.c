@@ -24,5 +24,5 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_CAPS,    KC_TRNS, KC_PGUP, KC_UP,   KC_PGDN, KC_VOLU,              KC_QUOT,  LSFT(KC_LBRC),KC_INS,     LSFT(KC_RBRC),  KC_PSCR,       KC_F12, \
   KC_TRNS,    KC_TRNS, KC_LEFT, KC_DOWN, KC_RGHT, KC_VOLD,              LSFT(KC_QUOT), RGB_TOG, RGB_MOD,    RGB_HUI,        RGB_VAI,       KC_TRNS, \
   KC_TRNS,    KC_TRNS, KC_HOME, KC_TRNS, KC_END,  KC_MUTE,              LSFT(KC_MINS), KC_LBRC, KC_KP_PLUS, KC_RBRC,        KC_KP_MINUS,   KC_RGHT, \
-              KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,              KC_DEL,        KC_TRNS, KC_LEFT,    KC_UP,          KC_DOWN \
+              KC_TRNS, KC_TRNS, KC_TRNS, KC_LCTL, KC_TRNS,              KC_DEL,        KC_TRNS, KC_LEFT,    KC_UP,          KC_DOWN \
 )};
