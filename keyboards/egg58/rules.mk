@@ -1,4 +1,7 @@
 MCU = atmega32u4
+# For Linux use "atmel-dfu"
+# BOOTLOADER = atmel-dfu
+# For Windows use "caterina"
 BOOTLOADER = caterina
 
 SPLIT_KEYBOARD = yes
